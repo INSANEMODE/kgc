@@ -2,19 +2,19 @@
 
 ## Steps
 
-* git clone https://github.com/kryptn/kgc
+* run `git clone https://github.com/kryptn/kgc`
 * https://console.developers.google.com/flows/enableapi?apiid=calendar with your google account
 * Check agree and continue
 * Follow next prompt
 * Select Service account (was the third prompt at time of writing)
 * select `P12` key type
 * A p12 file will download, save it as p12 in this directory.
-* Put the email address on the next page into the `settings.json` page key `GSERVEMAIL`
-* Enter kroger EUID and Password into `settings.json`
-* Enter gmail email address into `settings.json` email field
+* Edit `settings.json` and change `google_api_email` to the email found on the next page
+* Edit `settings.json` and change `kroger_euid` and `kroger_euid_password` to your EUID and password
+* Edit `settings.json` and change `gmail_email` to your gmail email address
+* Edit `settings.json` and change the location to your store
+* Edit `settings.json` and change the timezone to your timezone, list [here](https://developers.google.com/adwords/api/docs/appendix/timezones?hl=en)
 
-Instructions/defaults to follow
-
-### Core command:
+## Core command:
 
     sudo docker run -i -t -v /home/user/abs/path/to/repo:/krogergooglecalendar/data kryptn/kgc python schedule.py
