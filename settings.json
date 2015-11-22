@@ -1,0 +1,11 @@
+{
+    "EUID": "kroger_euid",
+    "PASSWORD": "kroger_euid_password",
+    "EMAIL": "gmail_email",
+    "P12_KEY_FILE": "key.p12",
+    "GSERVEMAIL": "google_api_email", 
+    
+    "SCOPE": "https://www.googleapis.com/auth/calendar",
+    "LOCATION": "Beaverton Fred Meyer",
+    "TIMEZONE": "America/Los_Angeles"
+}
