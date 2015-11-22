@@ -6,6 +6,6 @@
     "GSERVEMAIL": "google_api_email", 
     
     "SCOPE": "https://www.googleapis.com/auth/calendar",
-    "LOCATION": "Beaverton Fred Meyer",
+    "LOCATION": "Your_store_here",
     "TIMEZONE": "America/Los_Angeles"
 }
