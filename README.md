@@ -1,7 +1,7 @@
 #Kroger Google Calendar
 
 ## Steps
-
+* [Install Docker](http://docs.docker.com/engine/installation/)
 * run `git clone https://github.com/kryptn/kgc`
 * https://console.developers.google.com/flows/enableapi?apiid=calendar with your google account
 * Check agree and continue
