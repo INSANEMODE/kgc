@@ -2,6 +2,7 @@
 
 ## Steps
 
+* git clone https://github.com/kryptn/kgc
 * https://console.developers.google.com/flows/enableapi?apiid=calendar with your google account
 * Check agree and continue
 * Follow next prompt
