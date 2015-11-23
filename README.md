@@ -1,5 +1,11 @@
 #Kroger Google Calendar
 
+## Important details
+
+This service is a local one. User details are only stored to the `settings.json` file, and only sent to the website.
+
+[This is the repository with the source for the update service that we're cloning within the dockerfile](https://github.com/kryptn/krogergooglecalendar)
+
 ## Steps
 * [Install Docker](http://docs.docker.com/engine/installation/)
 * run `git clone https://github.com/kryptn/kgc`
@@ -8,7 +14,7 @@
 * Follow next prompt
 * Select Service account (was the third prompt at time of writing)
 * select `P12` key type
-* A p12 file will download, save it as p12 in this directory.
+* A p12 file will download, save it as `key.p12` in this directory.
 * Edit `settings.json` and change `google_api_email` to the email found on the next page
 * Edit `settings.json` and change `kroger_euid` and `kroger_euid_password` to your EUID and password
 * Edit `settings.json` and change `gmail_email` to your gmail email address
