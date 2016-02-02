@@ -23,4 +23,4 @@ This service is a local one. User details are only stored to the `settings.json`
 
 ## Core command:
 
-    sudo docker run -i -t -v /home/user/abs/path/to/repo:/krogergooglecalendar/data kryptn/kgc python schedule.py
+    sudo docker-compose up
