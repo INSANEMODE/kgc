@@ -1,0 +1,2 @@
+0 12 * * 5 /bin/bash /home/ubuntu/projects/kgc/update.sh > /home/ubuntu/projects/kgc/log.log 2>&1
+ 
