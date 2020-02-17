@@ -4,13 +4,13 @@
 
 This service is a local one. User details are only stored to the `settings.json` file, and only sent to the website.
 
-[This is the repository with the source for the update service that we're cloning within the dockerfile](https://github.com/kryptn/krogergooglecalendar)
+[This is the repository with the source for the update service that we're cloning within the dockerfile](https://github.com/insanemode/krogergooglecalendar)
 
 ## Steps
 * Install Docker
   * [Install Docker](http://docs.docker.com/engine/installation/)
   * [Install Docker Compose](https://docs.docker.com/compose/install/)
-* run `git clone https://github.com/kryptn/kgc`
+* run `git clone https://github.com/insanemode/kgc`
 * Set up the Google API with your account
   * https://console.developers.google.com/flows/enableapi?apiid=calendar with your google account
   * Check agree and continue
